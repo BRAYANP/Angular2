@@ -34,17 +34,16 @@ export class AppComponent  implements OnInit{
   title = 'Mi Shopping List';
   //Mini BD de productos con sus cantidades
   itemsDB: Object[] = [
-            {productName: 'Manzanas', cantidad: 5}, 
+           {productName: 'Manzanas', cantidad: 5}, 
             {productName: 'Pera', cantidad: 2},
-            {productName: 'Banana', cantidad: 1},
-            {productName: 'Kiwi', cantidad: 3},
+          {productName: 'Banana', cantidad: 1},
+           {productName: 'Kiwi', cantidad: 3},
             {productName: 'Melocoton', cantidad: 10}, 
-            {productName: 'Patatas', cantidad: 10}, 
+          {productName: 'Patatas', cantidad: 10}, 
             {productName: 'Jamón', cantidad: 2},
             {productName: 'Queso', cantidad: 2},
-            {productName: 'Tomates', cantidad: 5},
-            {productName: 'Pimientos', cantidad: 1}
-          ];
+           {productName: 'Tomates', cantidad: 5},
+             ];
  
   //Array de Items que se han de mostrar en pantalla 
   items: Object[] = [];
